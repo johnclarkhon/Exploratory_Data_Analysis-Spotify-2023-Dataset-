@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ba965cff-d807-4cfe-83b2-94c614128f49)(https://www.linkedin.com/pulse/exploratory-data-analysis-eda-python-indeedinspiring-5ogyf/)
+![image](https://www.linkedin.com/pulse/exploratory-data-analysis-eda-python-indeedinspiring-5ogyf/)
 
 # Exploratory Data Analysis on Spotify 2023 Dataset
 In this deliverable, an exploratory data analysis (EDA) is performed on a dataset containing information about popular tracks on Most Streamed Spotify Songs 2023. This task aims to analyze, visualize, and interpret the data to extract meaningful insights.
