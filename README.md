@@ -36,6 +36,9 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 <br>
 <h3 align="center">Solutions</h1>
 **1. Overview of Dataset**<br>
-
+<br>
+  The Dataset consist of 953 rows × 24 columns.
+What are the data types of each column? Are there any missing values?<br>
+  
 
 
