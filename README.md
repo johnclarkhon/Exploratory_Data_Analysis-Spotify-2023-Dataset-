@@ -1,4 +1,4 @@
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fexploratory-data-analysis-eda-python-indeedinspiring-5ogyf&psig=AOvVaw3Ldy3L4OpFbImz6CO4JKz8&ust=1729996339547000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDT6umAq4kDFQAAAAAdAAAAABAE)
+![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
 
 
 # Exploratory Data Analysis on Spotify 2023 Dataset
