@@ -3,36 +3,36 @@
 
 # Exploratory Data Analysis on Spotify 2023 Dataset
 In this deliverable, an exploratory data analysis (EDA) is performed on a dataset containing information about popular tracks on Most Streamed Spotify Songs 2023. This task aims to analyze, visualize, and interpret the data to extract meaningful insights.
-<break>
+<br>
 ## What is Exploratory Data Analysis?
 [Exploratory data analysis (EDA)](https://www.ibm.com/topics/exploratory-data-analysis) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
 
 EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypothesis, or check assumptions.
 
 EDA is primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a provides a better understanding of data set variables and the relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate. Originally developed by American mathematician John Tukey in the 1970s, EDA techniques continue to be a widely used method in the data discovery process today.
-<break>
+<br>
 ## Find the following:
-**1. Overview of Dataset<break>
-2. Basic Descriptive Statistics<break>
-3. Top Performers<break>
-4. Temporal Trends<break>
-5. Genre and Music Characteristics<break>
-6. Platform Popularity<break>
-7. Advanced Analysis<break>**
+**1. Overview of Dataset<br>
+2. Basic Descriptive Statistics<br>
+3. Top Performers<br>
+4. Temporal Trends<br>
+5. Genre and Music Characteristics<br>
+6. Platform Popularity<br>
+7. Advanced Analysis<br>**
 
 ## How can we perform it?
 
 <h3 align="center">Prerequisites</h1>
 
-**Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:
+**Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
 ![image](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9)
-
+<br>
 
 **Step 2:** Open Jupyter Notebook and create new .ipynb file
 ![image](https://github.com/user-attachments/assets/35b2a80c-4ca6-4d30-94f8-a1039309f70b)
-
+<br>
 **Step 3:** Import necessary Python librariees
-
+<br>
 
 
