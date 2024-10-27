@@ -50,8 +50,6 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 <hr>
 <h3 align="center">Solutions</h3>
 
-```
-
 **1. Overview of Dataset**
 <br>
 How many rows and columns does the dataset contain?<br>
@@ -104,4 +102,3 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 <br>
 
 
-```
