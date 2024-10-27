@@ -65,6 +65,7 @@ What are the data types of each column? Are there any missing values?<br>
 ```
 What are the mean, median, and standard deviation of the streams column?<br>
 What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?<br>
+![image](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9)
 ```
 <br>
 <br>
