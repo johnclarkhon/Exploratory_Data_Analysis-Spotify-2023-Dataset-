@@ -16,7 +16,7 @@
 ## Find the following:
 <br>
 <pre> 
-  
+
 **1. Overview of Dataset<br>
 2. Basic Descriptive Statistics<br>
 3. Top Performers<br>
@@ -51,21 +51,6 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 <h3 align="center">Solutions</h3>
 
 ```
-John CLark is my name
-asdfa
-sdfa
-sdf
-asdf
-ad
-fa
-fa
-wfe
-```
-
-
-<pre style="overflow-x: auto; white-space: pre-wrap;">
-
-
 **1. Overview of Dataset**
 <br>
 How many rows and columns does the dataset contain?<br>
@@ -118,4 +103,4 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 <br>
 
 
-</pre>
+```
