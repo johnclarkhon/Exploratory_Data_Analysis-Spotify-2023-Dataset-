@@ -2,9 +2,9 @@
 
 
 # Exploratory Data Analysis on Spotify 2023 Dataset
-<pre>
+
 In this deliverable, an exploratory data analysis (EDA) is performed on a dataset containing information about popular tracks on Most Streamed Spotify Songs 2023. This task aims to analyze, visualize, and interpret the data to extract meaningful insights.
-</pre>
+
 <br>
   
 ## What is Exploratory Data Analysis?
@@ -22,7 +22,7 @@ EDA is primarily used to see what data can reveal beyond the formal modeling or 
 <br>
   
 ## Find the following:
-<pre>
+
 **1. Overview of Dataset<br>
 2. Basic Descriptive Statistics<br>
 3. Top Performers<br>
@@ -30,7 +30,7 @@ EDA is primarily used to see what data can reveal beyond the formal modeling or 
 5. Genre and Music Characteristics<br>
 6. Platform Popularity<br>
 7. Advanced Analysis<br>**
-</pre>
+
   
 ## How can we perform it?
 
