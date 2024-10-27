@@ -20,8 +20,9 @@ EDA is primarily used to see what data can reveal beyond the formal modeling or 
 
 </p>
 <br>
-  
+<pre>  
 ## Find the following:
+
 
 **1. Overview of Dataset<br>
 2. Basic Descriptive Statistics<br>
@@ -31,6 +32,7 @@ EDA is primarily used to see what data can reveal beyond the formal modeling or 
 6. Platform Popularity<br>
 7. Advanced Analysis<br>**
 
+</pre>
   
 ## How can we perform it?
 
