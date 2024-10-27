@@ -35,7 +35,8 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 **Step 3:** Import necessary Python libraries
 <br>
 
-<h align="center">Solutions</h3>
+<h3 align="center">Solutions</h3>
+
 **1. Overview of Dataset**
 <br>
   The Dataset consist of 953 rows × 24 columns.
