@@ -54,10 +54,10 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 <br>
 ```
 How many rows and columns does the dataset contain?
-    The Dataset consist of 953 rows × 24 columns.
+    _The Dataset consist of 953 rows × 24 columns._
 
 What are the data types of each column? Are there any missing values?
-    The data types of the columns consists of objects and int-64.
+   _ The data types of the columns consists of objects and int-64._
 ```
 <br>
 <br>
