@@ -48,7 +48,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 
 <hr>
 <h3 align="center">Solutions</h3>
-<pre>
+<pre style="overflow-x: auto; white-space: pre-wrap;">
   
 **1. Overview of Dataset**
 <br>
