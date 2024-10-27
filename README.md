@@ -32,9 +32,9 @@
 ## How can we perform it?
 
 <h3 align="center">Prerequisites</h3>
-
-<pre style="overflow-x: auto; white-space: pre-wrap;">
-
+<br>
+<pre>
+  
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
 ![image](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9)
@@ -62,15 +62,19 @@ What are the data types of each column? Are there any missing values?<br>
 
 **2. Basic Descriptive Statistics**
 <br>
+```
 What are the mean, median, and standard deviation of the streams column?<br>
 What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?<br>
+```
 <br>
 <br>
 
 **3. Top Performers**
 <br>
+```
 Which track has the highest number of streams? Display the top 5 most streamed tracks.<br>
 Who are the top 5 most frequent artists based on the number of tracks in the dataset?<br>
+```
 <br>
 <br>
 
