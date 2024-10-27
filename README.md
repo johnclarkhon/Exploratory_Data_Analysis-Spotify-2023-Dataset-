@@ -32,7 +32,7 @@
 ## How can we perform it?
 
 <h3 align="center">Prerequisites</h3>
-<pre>
+<pre style="overflow-x: auto; white-space: pre-wrap;">
 
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
