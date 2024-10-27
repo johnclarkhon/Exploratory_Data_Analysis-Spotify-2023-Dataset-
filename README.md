@@ -49,7 +49,8 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 
 <hr>
 <h3 align="center">Solutions</h3>
-'''
+
+```
 John CLark is my name
 asdfa
 sdfa
@@ -59,7 +60,7 @@ ad
 fa
 fa
 wfe
-'''
+```
 
 
 <pre style="overflow-x: auto; white-space: pre-wrap;">
