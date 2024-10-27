@@ -1,9 +1,6 @@
 ![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
-<div class="scrolling-text">
-  This is your scrolling text. It will smoothly animate using CSS.
-</div>
 
-# <div class="scrolling-text">Exploratory Data Analysis on Spotify 2023 Dataset</div>
+# Exploratory Data Analysis on Spotify 2023 Dataset
 
 <p align="justify">In this deliverable, an exploratory data analysis (EDA) is performed on a dataset containing information about popular tracks on Most Streamed Spotify Songs 2023. This task aims to analyze, visualize, and interpret the data to extract meaningful insights.</p>
 <br>
