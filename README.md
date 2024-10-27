@@ -9,7 +9,7 @@ In this deliverable, an exploratory data analysis (EDA) is performed on a datase
   
 ## What is Exploratory Data Analysis?
  
-<p align:"justify">
+<p align="justify">
 [Exploratory data analysis (EDA)](https://www.ibm.com/topics/exploratory-data-analysis) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
 
 EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypothesis, or check assumptions.
