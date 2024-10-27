@@ -23,7 +23,7 @@ EDA is primarily used to see what data can reveal beyond the formal modeling or 
 ## How can we perform it?
 
 <h3 align="center">Prerequisites</h3>
-
+<pre>
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
 ![image](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9)
@@ -34,13 +34,15 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 <br>
 **Step 3:** Import necessary Python libraries
 <br>
+</pre>
 
 <h3 align="center">Solutions</h3>
-
+<pre>
+  
 **1. Overview of Dataset**
 <br>
 How many rows and columns does the dataset contain?<br>
-<pre>The Dataset consist of 953 rows × 24 columns.<br>
+<pre>The Dataset consist of 953 rows × 24 columns.<pre><br>
 What are the data types of each column? Are there any missing values?<br>
 <pre>asdfasdfads
   
@@ -88,3 +90,4 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 <br>
 <br>
 
+</pre>
