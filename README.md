@@ -39,49 +39,51 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 
 **1. Overview of Dataset**
 <br>
+How many rows and columns does the dataset contain?<br>
   The Dataset consist of 953 rows × 24 columns.
-What are the data types of each column? Are there any missing values?
+What are the data types of each column? Are there any missing values?<br>
+
 <br>
 <br>
 
 **2. Basic Descriptive Statistics**
 <br>
-What are the mean, median, and standard deviation of the streams column?
-What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?
+What are the mean, median, and standard deviation of the streams column?<br>
+What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?<br>
 <br>
 <br>
 
 **3. Top Performers**
 <br>
-Which track has the highest number of streams? Display the top 5 most streamed tracks.
-Who are the top 5 most frequent artists based on the number of tracks in the dataset?
+Which track has the highest number of streams? Display the top 5 most streamed tracks.<br>
+Who are the top 5 most frequent artists based on the number of tracks in the dataset?<br>
 <br>
 <br>
 
 **4. Temporal Trends**
 <br>
-Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.
-Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?
+Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.<br>
+Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?<br>
 <br>
 <br>
 
 **5. Genre and Music Characteristics**
 <br>
-Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?
-Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?
+Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?<br>
+Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?<br>
 <br>
 <br>
 
 **6. Platform Popularity**
 <br>
-How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?
+How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?<br>
 <br>
 <br>
 
 **7. Advanced Analysis**
 <br>
-Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?
-Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.
+Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?<br>
+Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.<br>
 <br>
 <br>
 
