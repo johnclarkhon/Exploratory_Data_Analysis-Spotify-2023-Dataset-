@@ -36,18 +36,18 @@
   
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
-![image](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9)
+<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9" width="600">
 <br>
 
 **Step 2:** Open Jupyter Notebook and create new .ipynb file
-![image](https://github.com/user-attachments/assets/35b2a80c-4ca6-4d30-94f8-a1039309f70b)
+<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151](https://github.com/user-attachments/assets/35b2a80c-4ca6-4d30-94f8-a1039309f70b" width="600">
 <br>
 
 **Step 3:** Import necessary Python libraries
-![image](https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151)
+<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151" width="600">
 <br>
 
-<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151" width="600">
+
 
 </pre>
 
