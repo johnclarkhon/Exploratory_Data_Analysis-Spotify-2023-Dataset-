@@ -47,7 +47,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 ![image](https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151)
 <br>
 
-<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151" width="200" height="100">
+<img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151" width="500">
 
 </pre>
 
