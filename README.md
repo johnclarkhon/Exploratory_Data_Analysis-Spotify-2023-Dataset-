@@ -1,23 +1,29 @@
 ![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
 
-# Exploratory Data Analysis on Spotify 2023 Dataset
+# <a name="introduction">Exploratory Data Analysis on Spotify 2023 Dataset</a>
 
 <p align="justify">In this deliverable, an exploratory data analysis (EDA) is performed on a dataset containing information about popular tracks on Most Streamed Spotify Songs 2023. This task aims to analyze, visualize, and interpret the data to extract meaningful insights.</p>
 <br>
-<br>
 
   
-## What is Exploratory Data Analysis?
+## Table of Contents
+[1. Introduction](#introduction)<br>
+[2. Exploratory Data Analysis (EDA)](#EDA)<br>
+[3. Problem Set](#problems)<br>
+[4. Solutions](#solutions)<br>
+
+<br>
+  
+## <a name="EDA">What is Exploratory Data Analysis?</a>
 
 <p align="justify"><a href="https://www.example.com](https://www.ibm.com/topics/exploratory-data-analysis">Exploratory data analysis (EDA)</a> is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.<br><br>EDA helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypothesis, or check assumptions.<br><br>EDA is primarily used to see what data can reveal beyond the formal modeling or hypothesis testing task and provides a provides a better understanding of data set variables and the relationships between them. It can also help determine if the statistical techniques you are considering for data analysis are appropriate. Originally developed by American mathematician John Tukey in the 1970s, EDA techniques continue to be a widely used method in the data discovery process today.</p>
 <br>
 <br>
-
-
-
-## Find the following:
+ 
+## <a name="problems">Find the following:</a>
 <br>
-<pre> 
+<pre>
+
 
 **1. Overview of Dataset<br>
 2. Basic Descriptive Statistics<br>
@@ -26,12 +32,12 @@
 5. Genre and Music Characteristics<br>
 6. Platform Popularity<br>
 7. Advanced Analysis<br>**
-
 </pre>
+
 <br>
 <br>
 
-## How can we perform it?
+## <a name="solutions">How can we perform it?</a>
 
 <h3 align="center">Prerequisites</h3>
 <br>
@@ -39,15 +45,15 @@
   
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
-<center><img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151](https://github.com/user-attachments/assets/d6cb1a80-85be-4cf5-807d-f9cc47542fc9" width="600"></center>
+<center><img src="https://github.com/user-attachments/assets/80ee276e-0bf2-4e63-8fe4-9e7b914d1d46" width="600"></center>
 <br>
 
-**Step 2:** Open Jupyter Notebook and create new .ipynb file
-<center><img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151](https://github.com/user-attachments/assets/35b2a80c-4ca6-4d30-94f8-a1039309f70b" width="600"></center>
+**Step 2:** Open Jupyter Notebook and create new ".ipynb" file
+<center><img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600"></center>
 <br>
 
 **Step 3:** Import necessary Python libraries
-<center><img src="https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151" width="600"></center>
+<center><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></center>
 <br>
 
 
