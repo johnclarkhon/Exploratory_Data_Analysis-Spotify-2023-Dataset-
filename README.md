@@ -43,6 +43,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 ![image](https://github.com/user-attachments/assets/35b2a80c-4ca6-4d30-94f8-a1039309f70b)
 <br>
 **Step 3:** Import necessary Python libraries
+![image](https://github.com/user-attachments/assets/7c352808-1fc1-4cf7-a1e2-6ae219ab5151)
 <br>
 </pre>
 
