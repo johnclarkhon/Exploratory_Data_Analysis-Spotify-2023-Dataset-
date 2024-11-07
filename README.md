@@ -6,7 +6,6 @@
 <br>
 <br>
 
-# Introduction
   
 ## What is Exploratory Data Analysis?
 
@@ -16,8 +15,6 @@
 
 
 
-[Monkey](#-introduction)
- 
 ## Find the following:
 <br>
 <pre> 
