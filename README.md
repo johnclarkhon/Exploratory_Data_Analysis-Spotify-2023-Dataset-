@@ -574,7 +574,9 @@ plt.show()
 
 ## <a name="pogi">Author</a>
 Name: John Clark D. Honrado<br>
-Section: 2ECE-A
+Section: 2ECE-A<br>
+Professor: Engr. Ma. Madecheen S. Pangaliman, MSc<br>
+Date Finished: November 8, 2024
 
 <br>
 
