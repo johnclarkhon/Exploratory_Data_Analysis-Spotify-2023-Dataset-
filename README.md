@@ -7,10 +7,18 @@
 
   
 ## Table of Contents
-[1. Introduction](#introduction)<br>
-[2. Exploratory Data Analysis (EDA)](#EDA)<br>
-[3. Problem Set](#problems)<br>
-[4. Solutions](#solutions)<br>
+1. [Introduction](#introduction)<br>
+2. [Exploratory Data Analysis (EDA)](#EDA)<br>
+3. [Problem Set](#problems)<br>
+4. [Solutions](#solutions)<br>
+    - [Overview of Dataset](#1)
+    - [Basic Descriptive Statistics](#2)
+    - [Top Performers](#3)
+    - [Temporal Trends](#4)
+    - [Genre and Music Characteristics](#5)
+    - [Platform Popularity](#6)
+    - [Advanced Analysis](#7)
+5. [Author](#pogi)
 
 <br>
   
@@ -24,14 +32,33 @@
 <br>
 <pre>
 
+<b>1. Overview of Dataset</b>
+    - How many rows and columns does the dataset contain?
+    - What are the data types of each column? Are there any missing values?
 
-**1. Overview of Dataset<br>
-2. Basic Descriptive Statistics<br>
-3. Top Performers<br>
-4. Temporal Trends<br>
-5. Genre and Music Characteristics<br>
-6. Platform Popularity<br>
-7. Advanced Analysis<br>**
+<b>2. Basic Descriptive Statistics</b>
+    - What are the mean, median, and standard deviation of the streams column?
+    - What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?
+
+<b>3. Top Performers</b>
+    - Which track has the highest number of streams? Display the top 5 most streamed tracks.
+    - Who are the top 5 most frequent artists based on the number of tracks in the dataset?
+
+<b>4. Temporal Trends</b>
+    - Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.
+    - Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?
+
+<b>5. Genre and Music Characteristics</b>
+    - Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?
+    - Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?
+
+<b>6. Platform Popularity</b>
+    - How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?
+
+<b>7. Advanced Analysis</b>
+    - Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?
+    - Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.
+
 </pre>
 
 <br>
@@ -39,38 +66,61 @@
 
 ## <a name="solutions">How can we perform it?</a>
 
-<h3 align="center">Prerequisites</h3>
+<div style="background-color: black;"><span style="color:white"><h3 align="center">Prerequisites</h3></div></span>
 <br>
-<pre>
+
   
 **Step 1:** Access and Download the "spotify-2023.csv" from the link bellow:<br>
+
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
-<center><img src="https://github.com/user-attachments/assets/80ee276e-0bf2-4e63-8fe4-9e7b914d1d46" width="600"></center>
+
+<br>
+<center><img src="https://github.com/user-attachments/assets/80ee276e-0bf2-4e63-8fe4-9e7b914d1d46" width="600"></center><br>
 <br>
 
 **Step 2:** Open Jupyter Notebook and create new ".ipynb" file
-<center><img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600"></center>
+
+<br>
+<center><img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600"></center><br>
 <br>
 
 **Step 3:** Import necessary Python libraries
-<center><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></center>
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+<br>
+<center><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></center><br>
+
+**Step 4** Access "spotify-2023.csv" using Pandas
+
+<br>
+<center><img src="https://github.com/user-attachments/assets/1bde783c-80c6-4a3f-a0aa-d740df4d3e5a" width="600"></center>
+
+
+
+
+
 <br>
 
 
-
-</pre>
-
-
-
-<hr>
-<h3 align="center">Solutions</h3>
+---
+<div style="background-color: black;"><span style="color:white">
+<h3 align="center"><a name="1">Solutions</a></h3>
+</div></span>
 <br>
+
 **1. Overview of Dataset**
 <br>
+
 <pre>
 
 How many rows and columns does the dataset contain?
-    _The Dataset consist of 953 rows × 24 columns._
+
 
 What are the data types of each column? Are there any missing values?
     _The data types of the columns consists of objects and int-64._
@@ -79,7 +129,9 @@ What are the data types of each column? Are there any missing values?
 <br>
 <br>
 
-**2. Basic Descriptive Statistics**
+<a name="2">
+
+**2. Basic Descriptive Statistics**</a>
 <br>
 ```
 What are the mean, median, and standard deviation of the streams column?
@@ -89,7 +141,10 @@ What is the distribution of released_year and artist_count? Are there any notice
 <br>
 <br>
 
-**3. Top Performers**
+<a name="3">
+
+**3. Top Performers**</a>
+
 <br>
 ```
 Which track has the highest number of streams? Display the top 5 most streamed tracks.
@@ -98,7 +153,9 @@ Who are the top 5 most frequent artists based on the number of tracks in the dat
 <br>
 <br>
 
-**4. Temporal Trends**
+<a name="4">
+
+**4. Temporal Trends**</a>
 <br>
 ```
 Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.
@@ -107,7 +164,9 @@ Does the number of tracks released per month follow any noticeable patterns? Whi
 <br>
 <br>
 
-**5. Genre and Music Characteristics**
+<a name="5">
+
+**5. Genre and Music Characteristics**</a>
 <br>
 ```
 Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?
@@ -116,7 +175,9 @@ Is there a correlation between danceability_% and energy_%? How about valence_% 
 <br>
 <br>
 
-**6. Platform Popularity**
+<a name="6">
+
+**6. Platform Popularity**</a>
 <br>
 ```
 How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?
@@ -124,13 +185,21 @@ How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_pla
 <br>
 <br>
 
-**7. Advanced Analysis**
+<a name="7">
+
+**7. Advanced Analysis**</a>
 <br>
 ```
 Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?
 Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.
 ```
 <br>
+<br>
+
+## <a name="pogi">Author</a>
+Name: John Clark D. Honrado<br>
+Section: 2ECE-A
+
 <br>
 
 
