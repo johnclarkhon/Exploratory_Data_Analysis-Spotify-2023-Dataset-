@@ -1,4 +1,4 @@
-![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
+![image](https://github.com/user-attachments/assets/db936a72-d523-49e9-951e-089b23970ae4)![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
 
 # <a name="introduction">Exploratory Data Analysis on Spotify 2023 Dataset</a>
 
@@ -131,17 +131,28 @@ rows_columns = {'Rows': num_rows,
                 'Columns': num_cols}
 pd.DataFrame(rows_columns, index=['Quantity'], columns=['Rows', 'Columns'])
 ```
+![image](https://github.com/user-attachments/assets/66004d39-da65-4eb4-92bc-03505ac46c1e)
+
 <br>
 
 What are the data types of each column? Are there any missing values?<br>
   
 ```python
 # Use "dtypes" function to get data types of each column
-datatypes = pd.DataFrame(dataset.dtypes)
-datatypes.columns = ['Data Type']
-datatypes.index.name = 'Columns'
-datatypes 
+dataset.dtypes
 ```
+![image](https://github.com/user-attachments/assets/148bedc0-557f-4a64-bac7-e8cd78fd1850)
+<br>
+
+```python
+# Use the "isnull()" to check missing values for each column
+# Use the "sum()" to add all the missing values for each column
+
+dataset.isnull().sum()
+```
+![image](https://github.com/user-attachments/assets/7d42cb97-0bc5-487a-a5a0-0d7e65e13803)
+
+
 <br>
 <br>
 
@@ -164,6 +175,8 @@ print("\033[1mMedian: \033[0m", stream.median())
 print("\033[1mStandard Deviation: \033[0m", stream.std())
 
 ```
+![image](https://github.com/user-attachments/assets/54ede158-3df6-4727-a467-9c2cecf9774a)
+
 <br>
 
 What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?<br>
@@ -179,6 +192,10 @@ print("\033[1mMean: \033[0m", artist.mean())
 print("\033[1mMedian: \033[0m", artist.median())
 print("\033[1mStandard Deviation: \033[0m", artist.std())
 ```
+![image](https://github.com/user-attachments/assets/20b0e201-7cc0-4926-9dcb-8b08bfcc8ab0)
+
+
+
 <br>
 
 ```python
@@ -193,6 +210,9 @@ print("\033[1mMean: \033[0m", year.mean())
 print("\033[1mMedian: \033[0m", year.median())
 print("\033[1mStandard Deviation: \033[0m", year.std())
 ```
+![image](https://github.com/user-attachments/assets/09f6ee2b-bbd2-41e7-ad21-e0ca2a4ba8f3)
+
+
 <br>
 
 ```python
@@ -208,6 +228,9 @@ plt.title('Number of Tracks Released Per Year')
 plt.grid(axis='y', linestyle='--')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/9965c453-83be-45e6-b3e2-e20cb26b4e16)
+
+
 <br>
 
 ```python
@@ -223,6 +246,7 @@ plt.title('Number of Tracks by Artist Count')
 plt.xticks(rotation=360)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/d5376aec-9bea-4c97-aab8-ca939ba482c4)
 
 
 <br>
@@ -246,6 +270,8 @@ top5_tracks = dataset.sort_values(by='streams').dropna(subset='streams')
 top5_tracks = top5_tracks.tail().sort_values(by='streams', ascending=False)
 top5_tracks
 ```
+![image](https://github.com/user-attachments/assets/a5ed10fd-e85f-459b-ab67-fb62a3c57e28)
+
 <br>
 
 ```python
@@ -258,6 +284,8 @@ for values in top5_tracks['track_name']:
     i = i+1
 print()
 ```
+![image](https://github.com/user-attachments/assets/5a46d299-2b99-4f15-be1f-e584abe9b4a9)
+
 <br>
 
 Who are the top 5 most frequent artists based on the number of tracks in the dataset?<br>
@@ -274,6 +302,7 @@ most_frequent_artists.columns = ['Artist Name', 'Number of Tracks']
 most_frequent_artists
 
 ```
+![image](https://github.com/user-attachments/assets/bd7c6a0c-7816-48bd-be3e-2a66ca2106f0)
 
 <br>
 <br>
@@ -298,6 +327,8 @@ plt.title('Number of Tracks Released Per Year')
 plt.grid(axis='y', linestyle='--')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/ff6f2e53-8140-4aac-9cf7-6db8b37841e6)
+
 <br>
 
 Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?<br>
@@ -315,6 +346,8 @@ plt.grid(axis='y', linestyle='--')
 plt.xticks(ticks=range(12), labels=['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'], rotation = 90)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/20f4569c-9fec-4259-b21b-fe97b2b55cbb)
+
 <br>
 
 <br>
@@ -335,6 +368,8 @@ corr_matrix = data.corr()
 # Print the correlation between streams and included musical attributes
 print(corr_matrix['streams'].sort_values(ascending=False))
 ```
+![image](https://github.com/user-attachments/assets/c85a20ed-0ce1-4063-a5b0-097943d7e82a)
+
 <br>
 
 Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?<br>
@@ -347,6 +382,8 @@ corr_matrix = df.corr()
 # Print the correlation between danceability_% and energy_%
 print(corr_matrix['danceability_%'].sort_values(ascending=False))
 ```
+![image](https://github.com/user-attachments/assets/cfe9c4e2-78f8-4f8c-93e0-fb18589b3484)
+
 <br>
 
 ```python
@@ -358,6 +395,8 @@ corr_matrix = df.corr()
 # Print the correlation between valence_% and acousticness_%
 print(corr_matrix['valence_%'].sort_values(ascending=False))
 ```
+![image](https://github.com/user-attachments/assets/09a2c64b-d77b-431c-a10b-3d5e9ae704c6)
+
 <br>
 
 ```python
@@ -370,6 +409,8 @@ sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap='coolwarm', square=T
 plt.title('Summary using Correlation Heatmap')  
 plt.show()  
 ```
+![image](https://github.com/user-attachments/assets/ec6bc532-ce1e-442f-a1b8-9911615715b6)
+
 <br>
 
 ```python
@@ -416,6 +457,8 @@ plt.tight_layout()
 plt.show()  
 
 ```
+![image](https://github.com/user-attachments/assets/69ff9482-4152-4156-9e73-214de17f15bb)
+
 <br>
 
 
@@ -440,6 +483,9 @@ pop_platform = pd.DataFrame(b)
 pop_platform.index = ['Number of Tracks']   
 pop_platform
 ```
+![image](https://github.com/user-attachments/assets/080bf710-0e20-4b6e-bc14-66430079bafe)
+
+
 <br>
 
 Which platform seems to favor the most popular tracks?<br>
@@ -454,6 +500,7 @@ plt.grid(axis='y', linestyle='--')
 plt.xticks(rotation=0)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/7666734a-3450-424f-ba3e-e3206d9def54)
 
 <br>
 <br>
@@ -480,6 +527,8 @@ plt.legend(title='Mode')
 plt.tight_layout()  
 plt.show()  
 ```
+![image](https://github.com/user-attachments/assets/6fa91b43-a281-4eb9-a8fd-7a14b06fdee6)
+
 <br>
 
 Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.<br>
@@ -512,6 +561,8 @@ top_frequent_artists = artist_frequency.sort_values(by='Total Frequency', ascend
 top_frequent_artists
 
 ```
+![image](https://github.com/user-attachments/assets/a0260ab7-616c-400a-9a8f-01933cc96906)
+
 <br>
 
 ```python
@@ -525,6 +576,7 @@ plt.grid(axis='x', linestyle='--')
 plt.gca().invert_yaxis()  # Invert y-axis to show top artists at the top
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/457a9998-ed93-4105-a9ec-4e348f785c62)
 
 <br>
 <br>
