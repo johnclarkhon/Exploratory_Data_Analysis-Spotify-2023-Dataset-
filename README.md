@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/00fe8a75-ea83-4534-a6ca-d8654b7c1eb4)
+![Exploratory Data Analysis on Spotify 2023 Dataset](https://github.com/user-attachments/assets/89b90b18-e8cd-49b7-bafc-ff021c5b87aa)
 
 
 # <a name="introduction">Exploratory Data Analysis on Spotify 2023 Dataset</a>
