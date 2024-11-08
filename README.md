@@ -364,7 +364,7 @@ print(corr_matrix['danceability_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/cfe9c4e2-78f8-4f8c-93e0-fb18589b3484)
 
->Yes, it has a correlation of +1.
+>Yes, it has a positive correlation.
 <br>
 
 ```python
@@ -378,7 +378,7 @@ print(corr_matrix['valence_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/09a2c64b-d77b-431c-a10b-3d5e9ae704c6)
 
->Yes, but the correlation is -1.
+>Yes, but the correlation is negative.
 <br>
 
 ```python
