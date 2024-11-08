@@ -157,7 +157,7 @@ dataset.isnull().sum()
 ```
 ![image](https://github.com/user-attachments/assets/7d42cb97-0bc5-487a-a5a0-0d7e65e13803)
 
->Yes. There are missing values specifically 1 from streams, 79 from deezer playlists, 57 from shazam charts, and 95 from key.
+>Yes. There are missing values specifically 50 in shazam charts and 95 in key.
 
 <br>
 <br>
