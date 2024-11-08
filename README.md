@@ -19,7 +19,8 @@
     - [Genre and Music Characteristics](#5)
     - [Platform Popularity](#6)
     - [Advanced Analysis](#7)
-5. [Author](#pogi)
+5. [Conclusion](#conclusion)
+6. [Author](#pogi)
 
 <br>
   
@@ -349,7 +350,7 @@ print(corr_matrix['streams'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/c85a20ed-0ce1-4063-a5b0-097943d7e82a)
 
->Among the three musical attributes, bpm seem to influence streams the most.
+>Among the three musical attributes, bpm seem to influence streams the most in terms of positive correlation while it is danceability if in terms of negative correlation.
 <br>
 
 Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?<br>
@@ -364,7 +365,7 @@ print(corr_matrix['danceability_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/cfe9c4e2-78f8-4f8c-93e0-fb18589b3484)
 
->Yes, it has a positive correlation.
+>Yes, there's a positive correlation between danceability and energy.
 <br>
 
 ```python
@@ -378,7 +379,7 @@ print(corr_matrix['valence_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/09a2c64b-d77b-431c-a10b-3d5e9ae704c6)
 
->Yes, but the correlation is negative.
+>Yes, but the correlation is negative between valence and acousticness.
 <br>
 
 ```python
@@ -511,6 +512,8 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/6fa91b43-a281-4eb9-a8fd-7a14b06fdee6)
 
+>Yes, it has a pattern like a waveform. The average streams is highest on the Major E and Minor F#.
+
 <br>
 
 Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.<br>
@@ -560,8 +563,14 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/457a9998-ed93-4105-a9ec-4e348f785c62)
 
+>The top ten most appearing artists for all the playlists and charts are as follows: Taylor Swift, SZA, The Weeknd, Peso Pulma, Bad Bunny, Morgan Wallen, Maria Becerra, Rauw Alejandro, Imagine Dragons, and Metro Boomin.
+
 <br>
 <br>
+
+## <a name="conclusion">Conclusion</a>
+
+<p align="justify">Through this Exploratory Data Analysis on Spotify 2023 Dataset, I was able to learn a lot about data analysis with the use of python programming language. Given a very huge dataset, it is really hard for us humans to analyze this manually and it will take very long time to compare results one by one. With the power of our technology nowadays, with Python and the different libraries such as numpy, pandas, pyplot and seaborn, with the jupyter notebook, we are given the tools to perform data analysis in a lot more easier, faster, and visually apealing and organized way.</p><br>
 
 ## <a name="pogi">Author</a>
 Name: John Clark D. Honrado<br>
