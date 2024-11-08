@@ -75,7 +75,7 @@
 link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
 
 <br>
-<center><img src="https://github.com/user-attachments/assets/80ee276e-0bf2-4e63-8fe4-9e7b914d1d46" width="600"></center><br>
+<div align="center"><img src="https://github.com/user-attachments/assets/80ee276e-0bf2-4e63-8fe4-9e7b914d1d46" width="600"></div><br>
 <br>
 
 **Step 2:** Open Jupyter Notebook and create new ".ipynb" file
