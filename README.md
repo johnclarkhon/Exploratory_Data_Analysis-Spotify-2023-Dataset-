@@ -81,7 +81,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 **Step 2:** Open Jupyter Notebook and create new ".ipynb" file
 
 <br>
-<img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600" align='center'><br>
+<div align="center"><img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600"></div><br>
 <br>
 
 **Step 3:** Import necessary Python libraries
@@ -94,12 +94,12 @@ import seaborn as sns
 ```
 
 <br>
-<center><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></center><br>
+<div align="center"><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></div><br>
 
 **Step 4** Access "spotify-2023.csv" using Pandas
 
 <br>
-<center><img src="https://github.com/user-attachments/assets/1bde783c-80c6-4a3f-a0aa-d740df4d3e5a" width="600"></center>
+<div align="center"><img src="https://github.com/user-attachments/assets/1bde783c-80c6-4a3f-a0aa-d740df4d3e5a" width="600"></div>
 
 
 
