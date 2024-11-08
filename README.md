@@ -570,7 +570,7 @@ plt.show()
 
 ## <a name="conclusion">Conclusion</a>
 
-<p align="justify">Through this Exploratory Data Analysis on Spotify 2023 Dataset, I was able to learn a lot about data analysis with the use of python programming language. Given a very huge dataset, it is really hard for us humans to analyze this manually and it will take very long time to compare results one by one. With the power of our technology nowadays, with Python and the different libraries such as numpy, pandas, pyplot and seaborn, with the jupyter notebook, we are given the tools to perform data analysis in a lot more easier, faster, and visually apealing and organized way.</p><br>
+<p align="justify">Through this Exploratory Data Analysis on the Spotify 2023 dataset, I was able to learn a lot about data analysis with the use of the Python programming language. Given a very huge dataset, it is really hard for us humans to analyze this manually, and it will take a very long time to compare results one by one. With the power of our technology nowadays, with Python and the different libraries such as Numpy, Pandas, Matplotlib, and Seaborn, with the Jupyter notebook, we are given the tools to perform data analysis in a lot easier, faster, and visually appealing and organized way.</p><br>
 
 ## <a name="pogi">Author</a>
 Name: John Clark D. Honrado<br>
