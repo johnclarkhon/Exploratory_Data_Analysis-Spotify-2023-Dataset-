@@ -144,6 +144,8 @@ What are the data types of each column? Are there any missing values?<br>
 dataset.dtypes
 ```
 ![image](https://github.com/user-attachments/assets/148bedc0-557f-4a64-bac7-e8cd78fd1850)
+
+> The dataset consists of two types of data, "object" and "int64".
 <br>
 
 ```python
@@ -154,6 +156,7 @@ dataset.isnull().sum()
 ```
 ![image](https://github.com/user-attachments/assets/7d42cb97-0bc5-487a-a5a0-0d7e65e13803)
 
+>Yes. There are missing values specifically 1 from streams, 79 from deezer playlists, 57 from shazam charts, and 95 from key.
 
 <br>
 <br>
@@ -199,6 +202,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/9965c453-83be-45e6-b3e2-e20cb26b4e16)
 
+>The data above shows that the number of tracks released per year is highest on 2022.
 
 <br>
 
@@ -217,6 +221,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/d5376aec-9bea-4c97-aab8-ca939ba482c4)
 
+>The data above shows that most of the tracks released only consist of 1 artist count.
 
 <br>
 <br>
@@ -241,6 +246,7 @@ top5_tracks
 ```
 ![image](https://github.com/user-attachments/assets/a5ed10fd-e85f-459b-ab67-fb62a3c57e28)
 
+>The top 5 most streamed tracks are Blinding Lights, Shape of You, Someone You Loved, Dance Monkey, and Sunflower - Spider-Man: Into the Spider-Verse from highest to lowest.
 <br>
 
 ```python
@@ -273,6 +279,8 @@ most_frequent_artists
 ```
 ![image](https://github.com/user-attachments/assets/bd7c6a0c-7816-48bd-be3e-2a66ca2106f0)
 
+>The top 5 most frequent artists are Bad Bunny, Taylor Swift, The Weeknd, SZA, and Kendrick Lamar from highest to lowest.
+
 <br>
 <br>
 
@@ -298,6 +306,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/ff6f2e53-8140-4aac-9cf7-6db8b37841e6)
 
+> The number of tracks released are highest in 2022 followed by 2023, then 2021.
 <br>
 
 Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?<br>
@@ -317,6 +326,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/20f4569c-9fec-4259-b21b-fe97b2b55cbb)
 
+>Yes. It forms a pattern like a wave form. January has the most releases of tracks.
 <br>
 
 <br>
@@ -339,6 +349,7 @@ print(corr_matrix['streams'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/c85a20ed-0ce1-4063-a5b0-097943d7e82a)
 
+>Among the three musical attributes, bpm seem to influence streams the most.
 <br>
 
 Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?<br>
@@ -353,6 +364,7 @@ print(corr_matrix['danceability_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/cfe9c4e2-78f8-4f8c-93e0-fb18589b3484)
 
+>Yes, it has a correlation of +1.
 <br>
 
 ```python
@@ -366,6 +378,7 @@ print(corr_matrix['valence_%'].sort_values(ascending=False))
 ```
 ![image](https://github.com/user-attachments/assets/09a2c64b-d77b-431c-a10b-3d5e9ae704c6)
 
+>Yes, but the correlation is -1.
 <br>
 
 ```python
@@ -454,7 +467,7 @@ pop_platform
 ```
 ![image](https://github.com/user-attachments/assets/080bf710-0e20-4b6e-bc14-66430079bafe)
 
-
+>Spotify playlists has the highest number of tracks followed by apple playlists then spotify charts.
 <br>
 
 Which platform seems to favor the most popular tracks?<br>
