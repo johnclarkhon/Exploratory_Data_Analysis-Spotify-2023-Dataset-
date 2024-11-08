@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/db936a72-d523-49e9-951e-089b23970ae4)![image](https://media.licdn.com/dms/image/v2/D4D12AQEFDU4XuJP11w/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1698229402254?e=2147483647&v=beta&t=7mnB7C9BMj6bXQwypYXIwFoQuZ5vItSRLZ0Ox9qvMKA)
+![image](https://github.com/user-attachments/assets/32a7f08a-4634-40da-bb2f-1c275cf19c3d)
+
 
 # <a name="introduction">Exploratory Data Analysis on Spotify 2023 Dataset</a>
 
