@@ -87,6 +87,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 **Step 3:** Import necessary Python libraries
 
 ```python
+# import the necessary libraries
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -96,13 +97,15 @@ import seaborn as sns
 <br>
 <div align="center"><img src="https://github.com/user-attachments/assets/a48e1f85-d7da-43ff-a71c-a2fd106e16aa" width="600"></div><br>
 
-**Step 4** Access "spotify-2023.csv" using Pandas
+**Step 4:** Access "spotify-2023.csv" using Pandas
+```python
+# Access "spotify-2023.csv" using Pandas
+dataset = pd.read_csv('spotify-2023.csv', encoding='latin-1')
+dataset
+```
 
 <br>
 <div align="center"><img src="https://github.com/user-attachments/assets/1bde783c-80c6-4a3f-a0aa-d740df4d3e5a" width="600"></div>
-
-
-
 
 
 <br>
@@ -117,15 +120,21 @@ import seaborn as sns
 **1. Overview of Dataset**
 <br>
 
-<pre>
 
-How many rows and columns does the dataset contain?
+<center>How many rows and columns does the dataset contain?</center><br>
 
+```python
+# Use "shape" function to get quantity of rows and columns
+num_rows, num_cols = dataset.shape
 
-What are the data types of each column? Are there any missing values?
-    _The data types of the columns consists of objects and int-64._
-  
-</pre>
+rows_columns = {'Rows': num_rows,
+                'Columns': num_cols}
+pd.DataFrame(rows_columns, index=['Quantity'], columns=['Rows', 'Columns'])
+```
+
+<center>What are the data types of each column? Are there any missing values?</center><br>
+   
+
 <br>
 <br>
 
@@ -133,11 +142,11 @@ What are the data types of each column? Are there any missing values?
 
 **2. Basic Descriptive Statistics**</a>
 <br>
-```
+
 What are the mean, median, and standard deviation of the streams column?
 
 What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?
-```
+
 <br>
 <br>
 
@@ -146,10 +155,10 @@ What is the distribution of released_year and artist_count? Are there any notice
 **3. Top Performers**</a>
 
 <br>
-```
+
 Which track has the highest number of streams? Display the top 5 most streamed tracks.
 Who are the top 5 most frequent artists based on the number of tracks in the dataset?
-```
+
 <br>
 <br>
 
