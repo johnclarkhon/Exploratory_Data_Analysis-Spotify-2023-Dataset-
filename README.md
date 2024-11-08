@@ -134,6 +134,7 @@ pd.DataFrame(rows_columns, index=['Quantity'], columns=['Rows', 'Columns'])
 ```
 ![image](https://github.com/user-attachments/assets/66004d39-da65-4eb4-92bc-03505ac46c1e)
 
+> There are 953 rows and 24 Columns in the 'spotify-2023.csv'.
 <br>
 
 What are the data types of each column? Are there any missing values?<br>
@@ -181,40 +182,7 @@ print("\033[1mStandard Deviation: \033[0m", stream.std())
 <br>
 
 What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?<br>
-```python
-#Access the specific column "artist_count" and convert to numeric
-artist = pd.to_numeric(dataset['artist_count'],errors="coerce")
 
-
-#Use the function "mean()", "median()", and "std()"
-print('\033[1mReleased Year\033[0m')
-print('*'*20)
-print("\033[1mMean: \033[0m", artist.mean())
-print("\033[1mMedian: \033[0m", artist.median())
-print("\033[1mStandard Deviation: \033[0m", artist.std())
-```
-![image](https://github.com/user-attachments/assets/20b0e201-7cc0-4926-9dcb-8b08bfcc8ab0)
-
-
-
-<br>
-
-```python
-# Access the specific column "released_year" and convert to numeric
-year = pd.to_numeric(dataset['released_year'],errors="coerce")
-
-
-# Use the function "mean()", "median()", and "std()"
-print('\033[1mArtist Count\033[0m')
-print('*'*20)
-print("\033[1mMean: \033[0m", year.mean())
-print("\033[1mMedian: \033[0m", year.median())
-print("\033[1mStandard Deviation: \033[0m", year.std())
-```
-![image](https://github.com/user-attachments/assets/09f6ee2b-bbd2-41e7-ad21-e0ca2a4ba8f3)
-
-
-<br>
 
 ```python
 # Count the number of tracks per released year
