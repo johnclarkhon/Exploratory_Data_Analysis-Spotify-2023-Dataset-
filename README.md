@@ -81,7 +81,7 @@ link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/da
 **Step 2:** Open Jupyter Notebook and create new ".ipynb" file
 
 <br>
-<center><img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600"></center><br>
+<img src="https://github.com/user-attachments/assets/e59a6e9a-3c0d-4f59-86ab-64603b494884" width="600" align='center'><br>
 <br>
 
 **Step 3:** Import necessary Python libraries
